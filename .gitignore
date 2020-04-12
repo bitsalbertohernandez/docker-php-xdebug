@@ -1,0 +1,4 @@
+web/*
+.DS_Store
+database/*
+config/nginx/logs/*
