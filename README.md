@@ -4,7 +4,7 @@
 * PHP 7.4
 * NGINX server 
 * Mariadb
-* Xdebug
+* Xdebug 2.9.4
 ###  Pasos para correr la imagen
 
 ------------
@@ -14,8 +14,12 @@
 
 -  git clone https://github.com/bitsalbertohernandez/docker-php-xdebug.git .
 -  En el directorio del proyecto correr el comando **docker-compose up -d** y esperar que termine el proceso de descarga y configuración de las imagenes.
--  Luego en el navegador teclear **localhost**.
-
+-  Luego en el navegador teclear **localhost** .
+### Directorios de configuraciones
+------------
+- XDEBUG -> /config/php-fpm/xdebug-ini-overrides.ini
+- PHP.INI -> /config/php-fpm/php-ini-overrides.ini
+- HOST VIRTUALES -> /config/nginx/nginx.conf
 ### VSCODE config para XDEBUG
 ------------
 ```
