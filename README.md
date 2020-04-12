@@ -1,9 +1,9 @@
-# Esta imagen contiene:
+### Esta imagen contiene:
 ------------
 
 * PHP 7.4
 * NGINX server 
-* Mariandb
+* Mariadb
 * Xdebug
 ###  Pasos para correr la imagen
 
@@ -16,8 +16,8 @@
 -  En el directorio del proyecto correr el comando **docker-compose up -d** y esperar que termine el proceso de descarga y configuración de las imagenes.
 -  Luego en el navegador teclear **localhost**.
 
-#### VSCODE config para XDEBUG
-
+### VSCODE config para XDEBUG
+------------
 ```
 {
   "version": "0.2.0",
