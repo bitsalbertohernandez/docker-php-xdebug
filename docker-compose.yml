@@ -5,7 +5,7 @@ services:
       container_name: mariadb
       working_dir: /app
       volumes:
-        - .database/mysql:/app
+        - ./database/mysql:/var/lib/mysql
       environment:
         MYSQL_ROOT_PASSWORD: root
       ports:
