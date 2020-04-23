@@ -8,6 +8,14 @@
 
 * Xdebug 2.9.4
 
+* Drush
+
+* Git
+
+* Composer
+
+* CodeSniffer
+
 ### Pasos para correr la imagen 
 ------------   
 - Instalar Docker y Docker Compose  
