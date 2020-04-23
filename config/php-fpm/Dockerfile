@@ -32,5 +32,14 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 # Install Drush
 RUN composer global require drush/drush
 
+# Install git
+RUN apt-get install git -y
+
+# Install Codesniffer
+RUN composer global require drupal/coder
+
+# Install Drupal rules Codesniffer
+RUN composer global require dealerdirect/phpcodesniffer-composer-installer
+
 # Drush global
 ENV PATH "$PATH:/root/.composer/vendor/bin"
