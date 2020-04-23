@@ -14,7 +14,7 @@
 
 * Composer
 
-* CodeSniffer
+* CodeSniffer (Con las rules de Drupal agregadas)
 
 ### Pasos para correr la imagen 
 ------------   
